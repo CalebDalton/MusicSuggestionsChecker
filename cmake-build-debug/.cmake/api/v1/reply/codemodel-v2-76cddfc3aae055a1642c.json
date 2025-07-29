@@ -6,7 +6,8 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bb0202c2d3489c6ce2d3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.27"
@@ -15,7 +16,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +32,8 @@
 					"name" : "MusicSuggestionsChecker",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +42,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MusicSuggestionsChecker::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MusicSuggestionsChecker-Debug-6f1cc412b0420526ceef.json",
+					"jsonFile" : "target-MusicSuggestionsChecker-Debug-c17b6c9d434ae0f2204f.json",
 					"name" : "MusicSuggestionsChecker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spotify-api-plusplus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spotify-api-plusplus-Debug-7e1b2528f6c9a07d9397.json",
+					"name" : "spotify-api-plusplus",
 					"projectIndex" : 0
 				}
 			]

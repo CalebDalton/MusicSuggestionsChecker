@@ -41,22 +41,288 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target spotify-api-plusplus
+
+
+#############################################
+# Order-only phony target for spotify-api-plusplus
+
+build cmake_object_order_depends_target_spotify-api-plusplus: phony || CMakeFiles/spotify-api-plusplus.dir
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/SpotifyAPI.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/SpotifyAPI.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\SpotifyAPI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Album.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Album.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Album.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/AlbumSimple.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/AlbumSimple.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\AlbumSimple.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Artist.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Artist.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Artist.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/ArtistSimple.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/ArtistSimple.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\ArtistSimple.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/AudioFeatures.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/AudioFeatures.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\AudioFeatures.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Category.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Category.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Category.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Context.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Context.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Context.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Copyright.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Copyright.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Copyright.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/CurrentlyPlayingContext.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/CurrentlyPlayingContext.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\CurrentlyPlayingContext.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/CurrentlyPlayingTrack.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/CurrentlyPlayingTrack.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\CurrentlyPlayingTrack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Cursor.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Cursor.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Cursor.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Device.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Device.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Device.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Error.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Error.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Error.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Followers.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Followers.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Followers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Image.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Image.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Image.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/PlayHistoryObject.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/PlayHistoryObject.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\PlayHistoryObject.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Playlist.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Playlist.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Playlist.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/PlaylistSimple.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/PlaylistSimple.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\PlaylistSimple.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/PlaylistTrack.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/PlaylistTrack.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\PlaylistTrack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Recommendations.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Recommendations.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Recommendations.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/RecommendationsSeed.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/RecommendationsSeed.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\RecommendationsSeed.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/SavedAlbum.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/SavedAlbum.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\SavedAlbum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/SavedTrack.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/SavedTrack.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\SavedTrack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Track.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/Track.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\Track.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/TrackLink.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/TrackLink.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\TrackLink.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/TrackSimple.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/TrackSimple.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\TrackSimple.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/User.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/User.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\User.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/UserPublic.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/src/models/UserPublic.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models\UserPublic.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\src\models
+
+build CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/tests/TestEndpoints.cpp.obj: CXX_COMPILER__spotify-api-plusplus_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/spotify-api-plusplus/tests/TestEndpoints.cpp || cmake_object_order_depends_target_spotify-api-plusplus
+  DEFINES = -Dspotify_api_plusplus_EXPORTS
+  DEP_FILE = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\tests\TestEndpoints.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  OBJECT_FILE_DIR = CMakeFiles\spotify-api-plusplus.dir\spotify-api-plusplus\tests
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target spotify-api-plusplus
+
+
+#############################################
+# Link the shared library libspotify-api-plusplus.dll
+
+build libspotify-api-plusplus.dll libspotify-api-plusplus.dll.a: CXX_SHARED_LIBRARY_LINKER__spotify-api-plusplus_Debug CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/SpotifyAPI.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Album.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/AlbumSimple.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Artist.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/ArtistSimple.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/AudioFeatures.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Category.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Context.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Copyright.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/CurrentlyPlayingContext.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/CurrentlyPlayingTrack.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Cursor.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Device.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Error.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Followers.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Image.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/PlayHistoryObject.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Playlist.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/PlaylistSimple.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/PlaylistTrack.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Recommendations.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/RecommendationsSeed.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/SavedAlbum.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/SavedTrack.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/Track.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/TrackLink.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/TrackSimple.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/User.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/src/models/UserPublic.cpp.obj CMakeFiles/spotify-api-plusplus.dir/spotify-api-plusplus/tests/TestEndpoints.cpp.obj | C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/libcurl-d.lib
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/libcurl-d.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\spotify-api-plusplus.dir
+  POST_BUILD = cmd.exe /C "cd /D E:\School\COP3530\MusicSuggestionsChecker\cmake-build-debug && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Caleb/.vcpkg-clion/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/libspotify-api-plusplus.dll -installedDir C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_FILE = libspotify-api-plusplus.dll
+  TARGET_IMPLIB = libspotify-api-plusplus.dll.a
+  TARGET_PDB = spotify-api-plusplus.dll.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target MusicSuggestionsChecker
 
 
 #############################################
 # Order-only phony target for MusicSuggestionsChecker
 
-build cmake_object_order_depends_target_MusicSuggestionsChecker: phony || CMakeFiles/MusicSuggestionsChecker.dir
+build cmake_object_order_depends_target_MusicSuggestionsChecker: phony || cmake_object_order_depends_target_spotify-api-plusplus
 
 build CMakeFiles/MusicSuggestionsChecker.dir/src/main.cpp.obj: CXX_COMPILER__MusicSuggestionsChecker_unscanned_Debug E$:/School/COP3530/MusicSuggestionsChecker/src/main.cpp || cmake_object_order_depends_target_MusicSuggestionsChecker
   DEP_FILE = CMakeFiles\MusicSuggestionsChecker.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src
+  INCLUDES = -IE:/School/COP3530/MusicSuggestionsChecker/src -isystem C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/include
   OBJECT_DIR = CMakeFiles\MusicSuggestionsChecker.dir
   OBJECT_FILE_DIR = CMakeFiles\MusicSuggestionsChecker.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\MusicSuggestionsChecker.dir\
-  TARGET_PDB = MusicSuggestionsChecker.pdb
 
 
 # =============================================================================
@@ -66,16 +332,15 @@ build CMakeFiles/MusicSuggestionsChecker.dir/src/main.cpp.obj: CXX_COMPILER__Mus
 #############################################
 # Link the executable MusicSuggestionsChecker.exe
 
-build MusicSuggestionsChecker.exe: CXX_EXECUTABLE_LINKER__MusicSuggestionsChecker_Debug CMakeFiles/MusicSuggestionsChecker.dir/src/main.cpp.obj
+build MusicSuggestionsChecker.exe: CXX_EXECUTABLE_LINKER__MusicSuggestionsChecker_Debug CMakeFiles/MusicSuggestionsChecker.dir/src/main.cpp.obj | libspotify-api-plusplus.dll.a C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/libcurl-d.lib || libspotify-api-plusplus.dll
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libspotify-api-plusplus.dll.a  C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/libcurl-d.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MusicSuggestionsChecker.dir
-  POST_BUILD = cd .
+  POST_BUILD = cmd.exe /C "cd /D E:\School\COP3530\MusicSuggestionsChecker\cmake-build-debug && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Caleb/.vcpkg-clion/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/MusicSuggestionsChecker.exe -installedDir C:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\MusicSuggestionsChecker.dir\
   TARGET_FILE = MusicSuggestionsChecker.exe
   TARGET_IMPLIB = libMusicSuggestionsChecker.dll.a
-  TARGET_PDB = MusicSuggestionsChecker.pdb
+  TARGET_PDB = MusicSuggestionsChecker.exe.dbg
 
 
 #############################################
@@ -100,10 +365,54 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cmd.exe /C "cd /D E:\School\COP3530\MusicSuggestionsChecker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cmd.exe /C "cd /D E:\School\COP3530\MusicSuggestionsChecker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cmd.exe /C "cd /D E:\School\COP3530\MusicSuggestionsChecker\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
 
 build MusicSuggestionsChecker: phony MusicSuggestionsChecker.exe
+
+build spotify-api-plusplus: phony libspotify-api-plusplus.dll
 
 # =============================================================================
 # Folder targets.
@@ -113,7 +422,7 @@ build MusicSuggestionsChecker: phony MusicSuggestionsChecker.exe
 #############################################
 # Folder: E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug
 
-build all: phony MusicSuggestionsChecker.exe
+build all: phony libspotify-api-plusplus.dll MusicSuggestionsChecker.exe
 
 # =============================================================================
 # Built-in targets
@@ -122,14 +431,14 @@ build all: phony MusicSuggestionsChecker.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake E$:/School/COP3530/MusicSuggestionsChecker/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindZLIB.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake E$:/School/COP3530/MusicSuggestionsChecker/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake E$:/School/COP3530/MusicSuggestionsChecker/CMakeLists.txt: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindZLIB.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake C$:/Users/Caleb/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake E$:/School/COP3530/MusicSuggestionsChecker/CMakeLists.txt: phony
 
 
 #############################################

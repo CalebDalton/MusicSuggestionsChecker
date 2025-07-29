@@ -1,3 +1,8 @@
+E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/spotify-api-plusplus.dir
 E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/MusicSuggestionsChecker.dir
 E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/list_install_components.dir
+E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/install.dir
+E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/install/local.dir
+E:/School/COP3530/MusicSuggestionsChecker/cmake-build-debug/CMakeFiles/install/strip.dir
