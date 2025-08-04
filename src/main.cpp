@@ -19,6 +19,7 @@
 using namespace std;
 
 struct Song {
+    // song structure: artist, title of track, and three recommendation variables
     std::string artist;
     std::string title;
     int energy;
@@ -27,6 +28,7 @@ struct Song {
 };
 
 string normalize(const string &s) {
+    // function used for sorting algorithm components
     string out;
     for (char c: s) {
         if (isalnum(static_cast<unsigned char>(c)) || c == ' ') {
@@ -43,6 +45,7 @@ string normalize(const string &s) {
 }
 
 std::vector<Song> loadSongs(const std::string& filename) {
+    // parse and load songs into csv file for pulling recommendations
     std::vector<Song> songs;
     std::filesystem::path current = std::filesystem::current_path();
     while (!std::filesystem::exists(current / "resources") && current.has_parent_path()) {
@@ -64,16 +67,16 @@ std::vector<Song> loadSongs(const std::string& filename) {
         if (commaPos != std::string::npos) {
             std::string artist = line.substr(0, commaPos);
             std::string title = line.substr(commaPos + 1);
-
+            
             // Trim whitespace and remove quotes
             auto trim = [](std::string& s) {
                 s.erase(0, s.find_first_not_of(" \t\r\n\""));
                 s.erase(s.find_last_not_of(" \t\r\n\"") + 1);
             };
-
+            
             trim(artist);
             trim(title);
-
+            
             if (!artist.empty() && !title.empty()) {
                 Song s;
                 s.artist = artist;
@@ -91,6 +94,7 @@ std::vector<Song> loadSongs(const std::string& filename) {
 }
 
 std::vector<Song> recommendSongs(const std::vector<Song>& songs, const Song& seed, int margin, bool useEnergy, bool useDance, bool useAcoustic, bool prioritizeSearch, const std::string& term) {
+    // create song recommendation vector, utilizes seed song
     std::vector<Song> recommendations;
     for (const auto& s : songs) {
         if (prioritizeSearch && term.size() > 0) {
@@ -107,6 +111,7 @@ std::vector<Song> recommendSongs(const std::vector<Song>& songs, const Song& see
 }
 
 double similarityScore(const Song& a, const Song& seed, bool useEnergy, bool useDance, bool useAcoustic) {
+    // used for sorting the recommendations based on their composite similarity
     double score = 0;
     if (useEnergy) score += std::abs(a.energy - seed.energy);
     if (useDance) score += std::abs(a.danceability - seed.danceability);
@@ -115,6 +120,7 @@ double similarityScore(const Song& a, const Song& seed, bool useEnergy, bool use
 }
 
 int partition(vector<Song> &songs, int low, int high, bool byTitle) {
+    // partition function for quick sort
     int randomIndex = low + rand() % (high - low + 1);
     swap(songs[randomIndex], songs[high]);
     string pivot = byTitle ? normalize(songs[high].title) : normalize(songs[high].artist);
@@ -131,6 +137,7 @@ int partition(vector<Song> &songs, int low, int high, bool byTitle) {
 }
 
 void quickSort(vector<Song> &songs, int low, int high, bool byTitle) {
+    // quick sort algorithm
     while (low < high) {
         int pi = partition(songs, low, high, byTitle);
         if (pi - low < high - pi) {
@@ -144,6 +151,7 @@ void quickSort(vector<Song> &songs, int low, int high, bool byTitle) {
 }
 
 void merge(vector<Song> &songs, int l, int m, int r, bool byTitle) {
+    // merge function for merge sort
     int n1 = m - l + 1, n2 = r - m;
     vector<Song> L(n1), R(n2);
     for (int i = 0; i < n1; i++) L[i] = songs[l + i];
@@ -160,6 +168,7 @@ void merge(vector<Song> &songs, int l, int m, int r, bool byTitle) {
 }
 
 void mergeSort(vector<Song> &songs, int l, int r, bool byTitle) {
+    // merge sort algorithm
     if (l < r) {
         int m = l + (r - l) / 2;
         mergeSort(songs, l, m, byTitle);
@@ -170,21 +179,22 @@ void mergeSort(vector<Song> &songs, int l, int r, bool byTitle) {
 
 int main() {
     srand(static_cast<unsigned>(time(0)));
+    //call load function and load songs into vector
     std::vector<Song> songs = loadSongs("songdata.csv");
 
-    // Setup ImGui + GLFW
+    // sets up ImGui and GLFW
     if (!glfwInit()) return 1;
     GLFWwindow* window = glfwCreateWindow(1000, 800, "Music Suggestions", NULL, NULL);
     glfwMakeContextCurrent(window);
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO();
-    ImGui::GetStyle().ScaleAllSizes(2.5f);
+    ImGui::GetStyle().ScaleAllSizes(2.5f); // makes scaling 2.5x size
     io.FontGlobalScale = 2.5f;
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 130");
 
-    // GUI state
+    // creates variables used by GUI and logic
     static char searchBuf[128] = "";
     static int searchMode = 0; // 0 = Title, 1 = Artist
     static bool useEnergy = false, useDance = false, useAcoustic = false, prioritize = false;
@@ -193,7 +203,7 @@ int main() {
     static bool recommendClicked = false;
     static std::vector<Song> recommendations;
     static Song seed;
-
+    // open GUI until closed
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
         ImGui_ImplOpenGL3_NewFrame();
@@ -207,11 +217,13 @@ int main() {
         ImGui::InputText("Search", searchBuf, IM_ARRAYSIZE(searchBuf));
         ImGui::RadioButton("Search by Title", &searchMode, 0); ImGui::SameLine();
         ImGui::RadioButton("Search by Artist", &searchMode, 1);
-
+        // create checkboxes for variables
         ImGui::Checkbox("Use Energy", &useEnergy);
         ImGui::Checkbox("Use Danceability", &useDance);
         ImGui::Checkbox("Use Acousticness", &useAcoustic);
+        // margin of error slider
         ImGui::SliderInt("Margin of Error", &margin, 0, 50);
+        // prioritize search checkbox
         ImGui::Checkbox("Prioritize Search Term", &prioritize);
 
         ImGui::Separator();
@@ -219,16 +231,16 @@ int main() {
         ImGui::RadioButton("Artist", &sortChoice, 0); ImGui::SameLine();
         ImGui::RadioButton("Title", &sortChoice, 1); ImGui::SameLine();
         ImGui::RadioButton("Most Similar", &sortChoice, 2);
-
+        // radio buttons for sorting algorithms
         ImGui::Text("Sort algorithm:");
         ImGui::RadioButton("Quick Sort", &sortAlgorithm, 0); ImGui::SameLine();
         ImGui::RadioButton("Merge Sort", &sortAlgorithm, 1);
         bool searchNotEmpty = strlen(searchBuf) > 0;
-
+        // disables search button if search bar is empty
         if (!searchNotEmpty) {
             ImGui::BeginDisabled();
         }
-
+        // if get recommendations button is clicked
         if (ImGui::Button("Get Recommendations")) {
             std::string search(searchBuf);
             std::vector<Song> matches;
@@ -244,13 +256,14 @@ int main() {
             } else if (!songs.empty()) {
                 seed = songs[rand() % songs.size()];
             }
+            // calls recommendation function based on seed and user input
             recommendations = recommendSongs(
-                    songs, seed, margin,
-                    useEnergy, useDance, useAcoustic,
-                    prioritize, search
+                songs, seed, margin,
+                useEnergy, useDance, useAcoustic,
+                prioritize, search
             );
 
-            // Sorting and timing
+            // times algorithms
             auto start = std::chrono::high_resolution_clock::now();
             if (sortAlgorithm == 0) { // Quick Sort
                 if (sortChoice == 0)
@@ -260,7 +273,7 @@ int main() {
                 else
                     std::sort(recommendations.begin(), recommendations.end(), [&](const Song& a, const Song& b){
                         return similarityScore(a, seed, useEnergy, useDance, useAcoustic)
-                               < similarityScore(b, seed, useEnergy, useDance, useAcoustic);
+                            < similarityScore(b, seed, useEnergy, useDance, useAcoustic);
                     });
             } else { // Merge Sort
                 if (sortChoice == 0)
@@ -270,7 +283,7 @@ int main() {
                 else
                     std::sort(recommendations.begin(), recommendations.end(), [&](const Song& a, const Song& b){
                         return similarityScore(a, seed, useEnergy, useDance, useAcoustic)
-                               < similarityScore(b, seed, useEnergy, useDance, useAcoustic);
+                            < similarityScore(b, seed, useEnergy, useDance, useAcoustic);
                     });
             }
             auto end = std::chrono::high_resolution_clock::now();
@@ -281,6 +294,7 @@ int main() {
         if (!searchNotEmpty) {
             ImGui::EndDisabled();
         }
+        // ouput for clicking recommendations button
         if (recommendClicked) {
             ImGui::Separator();
             ImGui::Text("Sort Time: %.3f ms", sortTimeMs);
@@ -291,17 +305,17 @@ int main() {
             int show = std::min(10, (int)recommendations.size());
             for (int i = 0; i < show; i++) {
                 ImGui::BulletText("%s - %s [E:%d D:%d A:%d]",
-                                  recommendations[i].artist.c_str(),
-                                  recommendations[i].title.c_str(),
-                                  recommendations[i].energy,
-                                  recommendations[i].danceability,
-                                  recommendations[i].acousticness
+                    recommendations[i].artist.c_str(),
+                    recommendations[i].title.c_str(),
+                    recommendations[i].energy,
+                    recommendations[i].danceability,
+                    recommendations[i].acousticness
                 );
             }
         }
 
         ImGui::End();
-
+        // renders gui continuously until while loop finishes
         ImGui::Render();
         int display_w, display_h;
         glfwGetFramebufferSize(window, &display_w, &display_h);
@@ -311,7 +325,7 @@ int main() {
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         glfwSwapBuffers(window);
     }
-
+    // winds down the GUI
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
