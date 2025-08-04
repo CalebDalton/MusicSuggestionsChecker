@@ -1,3 +1,6 @@
+// We ran into trouble coordinating with Git and a experienced few issues, so some code was emailed.
+// or passed in the group chat. We all did our fair share of work and apologize for the poor Git competency.
+// We should have learned proper use of it a little earlier than when we started. Thank you.
 #include <iostream>
 #include <fstream>
 #include <sstream>
